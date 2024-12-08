@@ -1,8 +1,15 @@
 const employees = [
     {
         "id": 1,
-        "email": "employee1@example.com",
+        "firstName": "Aarav",
+        "email": "e@e.com",
         "password": "123",
+        "taskCounts": {
+            "active": 2,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -26,7 +33,7 @@ const employees = [
             },
             {
                 "active": false,
-                "newTask": true,
+                "newTask": false,
                 "completed": false,
                 "failed": true,
                 "title": "Task 3",
@@ -38,8 +45,15 @@ const employees = [
     },
     {
         "id": 2,
+        "firstName": "Isha",
         "email": "employee2@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 2,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -75,8 +89,15 @@ const employees = [
     },
     {
         "id": 3,
+        "firstName": "Ravi",
         "email": "employee3@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 2,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -112,8 +133,15 @@ const employees = [
     },
     {
         "id": 4,
+        "firstName": "Priya",
         "email": "employee4@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 2,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -149,8 +177,15 @@ const employees = [
     },
     {
         "id": 5,
+        "firstName": "Aditi",
         "email": "employee5@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 3,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -185,6 +220,7 @@ const employees = [
         ]
     }
 ];
+
 
 const admin = [
     {
